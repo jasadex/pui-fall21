@@ -5,6 +5,7 @@ function Pillow(kind, color, fill, quant) {
 	this.quant = quant;
 }
 
+/* product detail page exploration */
 function changeColor(color) {
 	document.getElementById("see-after").style.border= "0px";
 	document.getElementById("see-haze").style.border= "0px";
@@ -52,6 +53,7 @@ function changeFill(fill) {
 	}
 }
 
+/* configure a product for cart */
 function chooseColor(color) {
 	document.getElementById("choose-after").style.border= "0px";
 	document.getElementById("choose-haze").style.border= "0px";
@@ -106,6 +108,7 @@ function increase() {
 	document.getElementById("quant").textContent=quantNow;
 }
 
+/* update cart mini */
 function cartIncr () {
 	var newAmount = document.getElementById("quant").textContent;
 	document.getElementById("cart-quant").textContent = newAmount;
