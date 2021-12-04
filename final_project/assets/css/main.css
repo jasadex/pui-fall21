@@ -1,0 +1,56 @@
+/* home page type */
+body {
+	background-color: #BFC7D6;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 800;
+	font-size: 96px;
+	color: #F0EEE9;
+	line-height: 0;
+}
+
+h2 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 300;
+	font-size: 36px;
+	color:  #F0EEE9;
+	line-height: 0;
+	position: relative;
+}
+
+/* navigation buttons */
+button {
+	border-width: 5px;
+	border-style: solid;
+	border-color: #93A9D1;
+	padding-left: 30px;
+	padding-right: 30px;
+	background-color: #BFC7D6;
+	font-family: 'Univers', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	color: #93A9D1;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 75px;
+	position: relative;
+}
+
+button:hover {
+	background-color: #F0EEE9;
+	color: #BFC7D6;
+	border-color: #F0EEE9;
+}
+
+/* content area */
+.content {
+	display: block;
+	top: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+}

@@ -1,0 +1,152 @@
+/*page layout*/
+body {
+	position: relative;
+}
+
+#stability-intro {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #615F5F;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+	text-align: center;
+}
+
+#legal {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #A49E9E;
+	padding-top: 50px;
+	color: #615F5F;
+	font-family: 'Univers', sans-serif;
+}
+
+#stressors {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #615F5F;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+#sex {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #A49E9E;
+	padding-top: 50px;
+	color: #615F5F;
+	font-family: 'Univers', sans-serif;
+}
+
+#intimacy {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #615F5F;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+#space {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #A49E9E;
+	padding-top: 50px;
+	color: #615F5F;
+	font-family: 'Univers', sans-serif;
+}
+
+#exclusivity {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #615F5F;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+
+/* side navigation */
+#allNav {
+	position: fixed;
+	margin-top: 100px;
+}
+
+#sideNav {
+	line-height: 0.8;
+}
+
+.nav {
+	font-size: 16px;
+	font-family: 'Univers', sans-serif;
+	font-weight: 300;
+}
+
+/*type*/
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.25;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 0.8;
+}
+
+h2 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+}
+
+h3 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+#stability-intro h2 {
+	color: #A49E9E;
+}
+
+#stability-intro h1 {
+	margin-top: 60px;
+}
+
+#allNav a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+.nav-pills .nav-link.active {
+	background-color: rgba(255, 255, 255, 0.1) !important;
+}

@@ -1,0 +1,185 @@
+/*page layout*/
+body {
+	position: relative;
+}
+
+#top-block {
+	padding: 50px;
+	margin-bottom: -10px;
+	height: 40vh;
+
+	background-color: #F0EEE9;
+	padding-top: 50px;
+}
+
+#stages-intro {
+	padding: 50px;
+	margin-bottom: -10px;
+	height: 100vh;
+
+	background-color: #F0EEE9;
+	padding-top: 50px;
+	color: #615F5F;
+	font-family: 'Univers', sans-serif;
+	text-align: center;
+}
+
+#dicernment {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #93A9D1;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+#initiation {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #F7CACA;
+	padding-top: 50px;
+	color: #615F5F;
+	font-family: 'Univers', sans-serif;
+}
+
+#negotiation {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #648589;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+#cohabitation {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #A49E9E;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+#commitment {
+	padding: 50px;
+	margin-bottom: -10px;
+
+	padding-left: 300px;
+	padding-right: 120px;
+	background-color: #EC9688;
+	padding-top: 50px;
+	color: #F0EEE9;
+	font-family: 'Univers', sans-serif;
+}
+
+/* side navigation */
+#allNav {
+	position: fixed;
+	margin-top: 100px;
+}
+
+#sideNav {
+	line-height: 0.8;
+}
+
+.nav {
+	font-size: 16px;
+	font-family: 'Univers', sans-serif;
+	font-weight: 300;
+}
+
+.nav-pills .nav-link.active {
+	background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+#allNav a {
+	color: #fff;
+}
+
+
+/* challenge cards */
+.card {
+	margin-top: 20px;
+}
+
+#dicernment-card {
+	background-color: #BFC7D6;
+}
+
+#initiation-card {
+	background-color: #D2C2AC;
+}
+
+#negotiation-card {
+	background-color: #C3DDD6;
+}
+
+#cohabitation-card {
+	background-color: #786A5F;
+}
+
+#commitment-card {
+	background-color: #F7CACA;
+}
+
+.card-title {
+	color: #615F5F;
+}
+
+#cohabitation-card .card-title {
+	color: #F0EEE9;
+}
+
+/*type*/
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.15;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 0.8;
+}
+
+h2 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 600;
+	font-size: 48px;
+}
+
+h3 {
+	font-family: 'Univers', sans-serif;
+	font-weight: 600;
+	font-size: 28px;
+}
+
+/* modals */
+.modal-content {
+	color: #615F5F;
+}
+
+.modal {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-body p{
+	margin-top: 0;
+}
